@@ -1,0 +1,36 @@
+.homeroot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pcard{
+  width: 250px;
+  margin: 10px;
+}
+
+.cimg{
+  height: 200px;
+  object-fit: cover;
+}
+
+.category{
+  position: fixed;
+  bottom:30px;
+  right: 20px;
+  z-index: 100;
+}
+
+.showSuggestion{
+  height: 200px;
+  overflow-y: auto;
+}
+.pages{
+  display: flex;
+  justify-content: center;
+}
+
+.chip:Hover{
+  background-color: #1976d2 ;
+  color: white;
+}
